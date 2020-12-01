@@ -20,7 +20,9 @@ This site was built to practice the basics of semantic HTML and CSS as part of t
 * CSS3
 
 ## Setup
-To view, start by cloning this repository to your local machine. Then, open `index.html` in your favorite web browser.
+To view, go to this project's [GitHub Page](https://taylorrhowell.github.io/excursion). 
+
+You can also clone this repository to your local machine and open `index.html` in your favorite web browser.
 
 ## Code Examples
 ```html
