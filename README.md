@@ -8,41 +8,43 @@
 * [Setup](#setup)
 * [Features](#features)
 * [Status](#status)
-* [Inspiration](#inspiration)
-* [Contact](#contact)
 
 ## General info
-Add more general information about project. What the purpose of the project is? Motivation?
+This site was built to practice the basics of semantic HTML and CSS as part of the [Codecademy Full-Stack Engineer](https://www.codecademy.com) career path curriculum. `index.html` and `style.css` were written by @taylorrhowell, and the media assets were provided.
 
 ## Screenshots
-![Example screenshot](./)
+![Example screenshot](./resources/excursion_redline.png)
 
 ## Technologies
 * HTML5
 * CSS3
 
 ## Setup
-Describe how to install / setup your local environement / add link to demo version.
+To view, start by cloning this repository to your local machine. Then, open `index.html` in your favorite web browser.
 
 ## Code Examples
-Show examples of usage:
-`put-your-code-here`
+```html
+ <body>
+        <header>
+            <h1>Discover hidden places in the world around you</h1>
+        </header>
+        <main>
+            <section>
+                <a href="">Download Excursion (Coming soon!)</a>
+                <p></p>
+                <video autoplay muted loop>
+                    <source src="./resources/videos/excursion.mp4" type="video/mp4">
+                    Video unavailable
+                </video>
+            </section>
+```
 
 ## Features
-List of features ready and TODOs for future development
-* Awesome feature 1
-* Awesome feature 2
-* Awesome feature 3
+* Looping teaser video that autoplays upon site rendering
+* Semantic HTML structure
 
-To-do list:
-* Wow improvement to be done 1
-* Wow improvement to be done 2
+#### To-Do list
+* Add media queries to stylesheet
 
 ## Status
-Project is: _in progress_, _finished_, _no longer continue_ and why?
-
-## Inspiration
-Add here credits. Project inspired by..., based on...
-
-## Contact
-Created by [@flynerdpl](https://www.flynerd.pl/) - feel free to contact me!
+Project is: _on pause_
